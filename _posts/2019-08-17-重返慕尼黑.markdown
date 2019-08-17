@@ -8,7 +8,7 @@ tag:
 - Munich
 category: blog
 author: Ruihao
-description: 
+description: Internal tutorial for strategy consultant.
 ---
 
 <div class="breaker"></div>

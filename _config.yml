@@ -1,6 +1,6 @@
 # main text of home
 # name: Ruihao Qiu
-bio: 这是一个满世界吃pho的家伙
+bio: 这是一个满世界吃pho的家伙.
 
 # twitter summary info
 description: Ruihao's notes
@@ -70,7 +70,7 @@ email: qiuruihao@gmail.com
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
 # normal = 560px / large = 810px
-# width: large
+width: normal
 
 # if you don't need pagination, comment the *paginate* configs below
 # paginate: 5
