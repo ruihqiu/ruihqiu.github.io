@@ -1,7 +1,7 @@
 ---
 title: "小城记"
 layout: post
-date: 2019-01-09
+date: 2018-01-05
 image: 
 headerImage: false
 tag:
@@ -12,6 +12,10 @@ description:
 ---
 
 ![Munich](https://github.com/ruihqiu/ruihqiu.github.io/blob/master/assets/images/Liege.jpg?raw=true)
+
+<div class="breaker"></div>
+
+> 时间在那里变得很慢很慢。
 
 <div class="breaker"></div>
 

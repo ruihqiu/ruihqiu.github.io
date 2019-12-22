@@ -1,7 +1,7 @@
 ---
 title: "葡萄成熟时"
 layout: post
-date: 2018-08-01
+date: 2018-09-01
 image: 
 headerImage: false
 tag:
@@ -12,6 +12,10 @@ description:
 ---
 
 ![Bordeaux](https://github.com/ruihqiu/ruihqiu.github.io/blob/master/assets/images/Bordeaux.jpg?raw=true)
+
+<div class="breaker"></div>
+
+> 走了那么多路，不管去哪儿，我都可以平静地离开和重返。
 
 <div class="breaker"></div>
 

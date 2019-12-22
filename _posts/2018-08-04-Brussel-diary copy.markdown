@@ -15,7 +15,7 @@ description:
 
 <div class="breaker"></div>
 
-不知何时起，我的生活无趣的就只剩下，一些流水账式地记录。
+>  不知何时起，我的生活无趣的就只剩下，一些流水账式地记录。
 
 <div class="breaker"></div>
 
