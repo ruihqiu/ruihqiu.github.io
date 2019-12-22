@@ -13,7 +13,7 @@ description:
 
 <div class="breaker"></div>
 
-![Munich](https://github.com/ruihqiu/ruihqiu.github.io/tree/master/assets/images/munich.jpg)
+![Munich](https://github.com/ruihqiu/ruihqiu.github.io/blob/master/assets/images/Munich.jpg)
 
 半年前在慕尼黑呆了一个星期。并没有特别喜欢或者不喜欢。只是觉得很久没体会，消失在人群里的感觉，倒也不差。
 
