@@ -31,7 +31,7 @@ On bois une scotch CTS pour ta santé. 我们喝了一杯Scotch CTS。
 
 Tu nous manque très fort. 我们非常想念你。
 
-La prochaine bière on la boit a Baccelone ensemble. 下一杯，我们一起在巴塞罗那喝。
+La prochaine bière on la boit à Baccelone ensemble. 下一杯，我们一起在巴塞罗那喝。
 
 <div class="breaker"></div>
 
