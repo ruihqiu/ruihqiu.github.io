@@ -11,6 +11,8 @@ author: Ruihao
 description: 
 ---
 
+![Paris](https://github.com/ruihqiu/ruihqiu.github.io/blob/master/assets/images/Paris.jpg?raw=true)
+
 <div class="breaker"></div>
 
 记得上次和Z约在一家旧书café，她算是我生命中的贵人，总是热情而健谈。那会儿，我正在灰头土脸地找工作。她告诉我，“你只需要一些耐心，等你熬过了这段时间，再回头去看，就会发现没什么大不了！” 

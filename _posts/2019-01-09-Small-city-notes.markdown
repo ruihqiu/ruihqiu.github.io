@@ -11,6 +11,8 @@ author: Ruihao
 description: 
 ---
 
+![Munich](https://github.com/ruihqiu/ruihqiu.github.io/blob/master/assets/images/Liege.jpg?raw=true)
+
 <div class="breaker"></div>
 
 我曾经在Liège住过一段时间，比利时的一个默默无闻的小城市。

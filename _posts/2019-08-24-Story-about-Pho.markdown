@@ -11,6 +11,8 @@ author: Ruihao
 description: 
 ---
 
+![pho](https://github.com/ruihqiu/ruihqiu.github.io/blob/master/assets/images/pho.jpg?raw=true)
+
 <div class="breaker"></div>
 
 Pho是一种街头小吃，起源于越南，在全世界流行。它其实就是一碗汤河粉 — 骨汤底，河粉，肉和香菜。 二十世纪初，越南战争之后，随越南难民传遍全世界。据说，越南南部和北部的pho是不同的，无论是汤的甜度，肉和香菜的选择。而我从来没去过越南，无从考证。
