@@ -11,7 +11,9 @@ author: Ruihao
 description: 
 ---
 
-<iframe width="560" height="310" src="https://www.youtube.com/watch?v=sg8V5BLMEhE" frameborder="0" allowfullscreen></iframe>
+<p align="center"><iframe width="720" height="480" src="https://www.youtube.com/embed/sg8V5BLMEhE" frameborder="0" allowfullscreen></iframe></p>
+
+<div class="breaker"></div>
 
 > 任岁月再坏，不致心慌。
 
