@@ -11,7 +11,7 @@ author: Ruihao
 description: 
 ---
 
-<p align="center"><iframe width="720" height="480" src="https://www.youtube.com/embed/sg8V5BLMEhE" frameborder="0" allowfullscreen></iframe></p>
+<p align="center"><iframe width="720" height="420" src="https://www.youtube.com/embed/sg8V5BLMEhE" frameborder="0" allowfullscreen></iframe></p>
 
 <div class="breaker"></div>
 
