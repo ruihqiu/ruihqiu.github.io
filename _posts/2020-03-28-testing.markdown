@@ -1,0 +1,300 @@
+---
+title: "visualization test"
+layout: post
+date: 2020-03-28
+image: 
+headerImage: false
+tag:
+- data-viz
+category: blog
+author: Ruihao
+description: 
+---
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <title>D3 Demo: Making a bar chart with SVG</title>
+  <script type="text/javascript" src="https://d3js.org/d3.v4.js"></script>
+  <style type="text/css">
+    /* No style rules here yet */
+  </style>
+</head>
+
+<body>
+  <script type="text/javascript">
+    //Width and height
+    var w = 800;
+    var h = 200;
+    
+    d3.json("colorcode.json", function(data) {
+    
+      var red = d3.scaleOrdinal(data.red)
+      var blue = d3.scaleOrdinal(data.blue)
+      var yellow = d3.scaleOrdinal(data.yellow)
+      var green = d3.scaleOrdinal(data.green)
+      var purple = d3.scaleOrdinal(data.purple)
+      var green_2 = d3.scaleOrdinal(data.green_2)
+      var grey = d3.scaleOrdinal(data.grey)
+      //Create SVG element
+      var svg = d3.select("body")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+    
+      svg.selectAll("rect")
+        .data(data.red)
+        .enter()
+        .append("rect")
+        .attr("rx", 10)
+        .attr("ry", 10)
+        .attr("y", 50)
+        .attr("x", function(d, i) {
+          return i * 120 + 100; //Bar width of 20 plus 1 for padding
+        })
+        .attr("fill", function(d, i) {
+          return red(i)
+        })
+        .attr("width", 80)
+        .attr("height", 120)
+    
+      svg.selectAll("text")
+        .data(data.red)
+        .enter()
+        .append("text")
+        .attr("y", 190)
+        .attr("x", function(d, i) {
+          return i * 120 + 116 //Bar width of 20 plus 1 for padding
+        })
+        .text(function(d) {
+          return d
+        })
+        .attr("font-family", "roboto")
+        .attr("font-size", "12px")
+    
+      //Create SVG element
+      var svg = d3.select("body")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+    
+      svg.selectAll("rect")
+        .data(data.green)
+        .enter()
+        .append("rect")
+        .attr("rx", 10)
+        .attr("ry", 10)
+        .attr("y", 50)
+        .attr("x", function(d, i) {
+          return i * 120 + 100; //Bar width of 20 plus 1 for padding
+        })
+        .attr("fill", function(d, i) {
+          return green(i)
+        })
+        .attr("width", 80)
+        .attr("height", 120)
+
+
+      svg.selectAll("text")
+        .data(data.green)
+        .enter()
+        .append("text")
+        .attr("y", 190)
+        .attr("x", function(d, i) {
+          return i * 120 + 116 //Bar width of 20 plus 1 for padding
+        })
+        .text(function(d) {
+          return d
+        })
+        .attr("font-family", "roboto")
+        .attr("font-size", "12px")
+    
+      var svg = d3.select("body")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+      svg.selectAll("rect")
+        .data(data.blue)
+        .enter()
+        .append("rect")
+        .attr("rx", 10)
+        .attr("ry", 10)
+        .attr("y", 50)
+        .attr("x", function(d, i) {
+          return i * 120 + 100; //Bar width of 20 plus 1 for padding
+        })
+    
+        .attr("fill", function(d, i) {
+          return blue(i)
+        })
+        .attr("width", 80)
+        .attr("height", 120)
+
+
+      svg.selectAll("text")
+        .data(data.blue)
+        .enter()
+        .append("text")
+        .attr("y", 190)
+        .attr("x", function(d, i) {
+          return i * 120 + 116 //Bar width of 20 plus 1 for padding
+        })
+        .text(function(d) {
+          return d
+        })
+        .attr("font-family", "roboto")
+        .attr("font-size", "12px")
+    
+      //Create SVG element
+      var svg = d3.select("body")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+    
+      svg.selectAll("rect")
+        .data(data.yellow)
+        .enter()
+        .append("rect")
+        .attr("rx", 10)
+        .attr("ry", 10)
+        .attr("y", 50)
+        .attr("x", function(d, i) {
+          return i * 120 + 100; //Bar width of 20 plus 1 for padding
+        })
+        .attr("fill", function(d, i) {
+          return yellow(i)
+        })
+        .attr("width", 80)
+        .attr("height", 120)
+
+
+      svg.selectAll("text")
+        .data(data.yellow)
+        .enter()
+        .append("text")
+        .attr("y", 190)
+        .attr("x", function(d, i) {
+          return i * 120 + 116 //Bar width of 20 plus 1 for padding
+        })
+        .text(function(d) {
+          return d
+        })
+        .attr("font-family", "roboto")
+        .attr("font-size", "12px")
+
+
+      var svg = d3.select("body")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+    
+      svg.selectAll("rect")
+        .data(data.purple)
+        .enter()
+        .append("rect")
+        .attr("rx", 10)
+        .attr("ry", 10)
+        .attr("y", 50)
+        .attr("x", function(d, i) {
+          return i * 120 + 100; //Bar width of 20 plus 1 for padding
+        })
+        .attr("fill", function(d, i) {
+          return purple(i)
+        })
+        .attr("width", 80)
+        .attr("height", 120)
+
+
+      svg.selectAll("text")
+        .data(data.purple)
+        .enter()
+        .append("text")
+        .attr("y", 190)
+        .attr("x", function(d, i) {
+          return i * 120 + 116 //Bar width of 20 plus 1 for padding
+        })
+        .text(function(d) {
+          return d
+        })
+        .attr("font-family", "roboto")
+        .attr("font-size", "12px")
+    
+      var svg = d3.select("body")
+        .append("svg")
+        .attr("width", w)
+        .attr("height", h);
+    
+      svg.selectAll("rect")
+        .data(data.green_2)
+        .enter()
+        .append("rect")
+        .attr("rx", 10)
+        .attr("ry", 10)
+        .attr("y", 50)
+        .attr("x", function(d, i) {
+          return i * 120 + 100; //Bar width of 20 plus 1 for padding
+        })
+        .attr("fill", function(d, i) {
+          return green_2(i)
+        })
+        .attr("width", 80)
+        .attr("height", 120)
+
+
+      svg.selectAll("text")
+        .data(data.green_2)
+        .enter()
+        .append("text")
+        .attr("y", 190)
+        .attr("x", function(d, i) {
+          return i * 120 + 116 //Bar width of 20 plus 1 for padding
+        })
+        .text(function(d) {
+          return d
+        })
+        .attr("font-family", "roboto")
+        .attr("font-size", "12px")
+    
+        var svg = d3.select("body")
+          .append("svg")
+          .attr("width", w)
+          .attr("height", h);
+    
+        svg.selectAll("rect")
+          .data(data.grey)
+          .enter()
+          .append("rect")
+          .attr("rx", 10)
+          .attr("ry", 10)
+          .attr("y", 50)
+          .attr("x", function(d, i) {
+            return i * 120 + 100; //Bar width of 20 plus 1 for padding
+          })
+          .attr("fill", function(d, i) {
+            return grey(i)
+          })
+          .attr("width", 80)
+          .attr("height", 120)
+
+
+        svg.selectAll("text")
+          .data(data.grey)
+          .enter()
+          .append("text")
+          .attr("y", 190)
+          .attr("x", function(d, i) {
+            return i * 120 + 116 //Bar width of 20 plus 1 for padding
+          })
+          .text(function(d) {
+            return d
+          })
+          .attr("font-family", "roboto")
+          .attr("font-size", "12px")
+    
+    });
+  </script>
+</body>
+
+</html>
